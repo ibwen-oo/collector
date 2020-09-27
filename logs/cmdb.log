@@ -1,0 +1,72 @@
+2020-09-27 14:23:53,224 - ERROR - get_sysinfo: Traceback (most recent call last):
+  File "E:\python_test\20200812\collector\lib\plugins\get_sysinfo.py", line 32, in linux
+    self._parse_data(response.data)
+TypeError: _parse_data() missing 1 required positional argument: 'data'
+
+2020-09-27 14:23:53,325 - ERROR - get_sysinfo: Traceback (most recent call last):
+  File "E:\python_test\20200812\collector\lib\plugins\get_sysinfo.py", line 32, in linux
+    self._parse_data(response.data)
+TypeError: _parse_data() missing 1 required positional argument: 'data'
+
+2020-09-27 14:23:53,369 - ERROR - get_sysinfo: Traceback (most recent call last):
+  File "E:\python_test\20200812\collector\lib\plugins\get_sysinfo.py", line 32, in linux
+    self._parse_data(response.data)
+TypeError: _parse_data() missing 1 required positional argument: 'data'
+
+2020-09-27 14:23:53,380 - ERROR - get_sysinfo: Traceback (most recent call last):
+  File "E:\python_test\20200812\collector\lib\plugins\get_sysinfo.py", line 32, in linux
+    self._parse_data(response.data)
+TypeError: _parse_data() missing 1 required positional argument: 'data'
+
+2020-09-27 14:23:53,406 - ERROR - get_sysinfo: Traceback (most recent call last):
+  File "E:\python_test\20200812\collector\lib\plugins\get_sysinfo.py", line 32, in linux
+    self._parse_data(response.data)
+TypeError: _parse_data() missing 1 required positional argument: 'data'
+
+2020-09-27 14:23:53,740 - ERROR - get_sysinfo: Traceback (most recent call last):
+  File "E:\python_test\20200812\collector\lib\plugins\get_sysinfo.py", line 32, in linux
+    self._parse_data(response.data)
+TypeError: _parse_data() missing 1 required positional argument: 'data'
+
+2020-09-27 14:24:16,084 - ERROR - get_sysinfo: Traceback (most recent call last):
+  File "E:\python_test\20200812\collector\lib\plugins\get_sysinfo.py", line 32, in linux
+    self._parse_data(tgt, response.data)
+  File "E:\python_test\20200812\collector\lib\plugins\get_sysinfo.py", line 44, in _parse_data
+    virtual = data["virtual"]
+KeyError: 'virtual'
+
+2020-09-27 14:24:16,156 - ERROR - get_sysinfo: Traceback (most recent call last):
+  File "E:\python_test\20200812\collector\lib\plugins\get_sysinfo.py", line 32, in linux
+    self._parse_data(tgt, response.data)
+  File "E:\python_test\20200812\collector\lib\plugins\get_sysinfo.py", line 44, in _parse_data
+    virtual = data["virtual"]
+KeyError: 'virtual'
+
+2020-09-27 14:24:16,161 - ERROR - get_sysinfo: Traceback (most recent call last):
+  File "E:\python_test\20200812\collector\lib\plugins\get_sysinfo.py", line 32, in linux
+    self._parse_data(tgt, response.data)
+  File "E:\python_test\20200812\collector\lib\plugins\get_sysinfo.py", line 44, in _parse_data
+    virtual = data["virtual"]
+KeyError: 'virtual'
+
+2020-09-27 14:24:16,188 - ERROR - get_sysinfo: Traceback (most recent call last):
+  File "E:\python_test\20200812\collector\lib\plugins\get_sysinfo.py", line 32, in linux
+    self._parse_data(tgt, response.data)
+  File "E:\python_test\20200812\collector\lib\plugins\get_sysinfo.py", line 44, in _parse_data
+    virtual = data["virtual"]
+KeyError: 'virtual'
+
+2020-09-27 14:24:16,243 - ERROR - get_sysinfo: Traceback (most recent call last):
+  File "E:\python_test\20200812\collector\lib\plugins\get_sysinfo.py", line 32, in linux
+    self._parse_data(tgt, response.data)
+  File "E:\python_test\20200812\collector\lib\plugins\get_sysinfo.py", line 44, in _parse_data
+    virtual = data["virtual"]
+KeyError: 'virtual'
+
+2020-09-27 14:24:16,616 - ERROR - get_sysinfo: Traceback (most recent call last):
+  File "E:\python_test\20200812\collector\lib\plugins\get_sysinfo.py", line 32, in linux
+    self._parse_data(tgt, response.data)
+  File "E:\python_test\20200812\collector\lib\plugins\get_sysinfo.py", line 44, in _parse_data
+    virtual = data["virtual"]
+KeyError: 'virtual'
+
