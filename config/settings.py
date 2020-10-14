@@ -19,7 +19,7 @@ SALTURL = "http://10.0.6.110:8000"
 SALTUSERNAME = "saltapi"
 SALTPASSWORD = "123456"
 
-# 定义采集数据的方法,可以是 salt或ssh(暂未实现)
+# 定义采集数据的方法,可以是salt或ssh(暂未实现)
 ENGINE = "salt"
 
 # 定义采集数据的可选方法

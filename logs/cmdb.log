@@ -70,3 +70,45 @@ KeyError: 'virtual'
     virtual = data["virtual"]
 KeyError: 'virtual'
 
+2020-10-14 10:50:44,310 - ERROR - get_sysinfo: Traceback (most recent call last):
+  File "E:\python_test\20200812\collector\lib\plugins\get_sysinfo.py", line 32, in linux
+    response.data =  self._parse_data(tgt, result)
+  File "E:\python_test\20200812\collector\lib\plugins\get_sysinfo.py", line 44, in _parse_data
+    for key, value in data[tgt]["sysinfo"].items():
+AttributeError: 'str' object has no attribute 'items'
+
+2020-10-14 10:50:44,738 - ERROR - get_sysinfo: Traceback (most recent call last):
+  File "E:\python_test\20200812\collector\lib\plugins\get_sysinfo.py", line 32, in linux
+    response.data =  self._parse_data(tgt, result)
+  File "E:\python_test\20200812\collector\lib\plugins\get_sysinfo.py", line 44, in _parse_data
+    for key, value in data[tgt]["sysinfo"].items():
+AttributeError: 'str' object has no attribute 'items'
+
+2020-10-14 10:51:44,177 - ERROR - get_sysinfo: Traceback (most recent call last):
+  File "E:\python_test\20200812\collector\lib\plugins\get_sysinfo.py", line 32, in linux
+    response.data =  self._parse_data(tgt, result)
+  File "E:\python_test\20200812\collector\lib\plugins\get_sysinfo.py", line 44, in _parse_data
+    for key, value in data[tgt]["sysinfo"].items():
+AttributeError: 'str' object has no attribute 'items'
+
+2020-10-14 10:51:44,268 - ERROR - get_sysinfo: Traceback (most recent call last):
+  File "E:\python_test\20200812\collector\lib\plugins\get_sysinfo.py", line 32, in linux
+    response.data =  self._parse_data(tgt, result)
+  File "E:\python_test\20200812\collector\lib\plugins\get_sysinfo.py", line 44, in _parse_data
+    for key, value in data[tgt]["sysinfo"].items():
+AttributeError: 'str' object has no attribute 'items'
+
+2020-10-14 10:52:28,226 - ERROR - get_sysinfo: Traceback (most recent call last):
+  File "E:\python_test\20200812\collector\lib\plugins\get_sysinfo.py", line 32, in linux
+    response.data =  self._parse_data(tgt, result)
+  File "E:\python_test\20200812\collector\lib\plugins\get_sysinfo.py", line 45, in _parse_data
+    for key, value in data[tgt]["sysinfo"].items():
+AttributeError: 'str' object has no attribute 'items'
+
+2020-10-14 10:52:28,346 - ERROR - get_sysinfo: Traceback (most recent call last):
+  File "E:\python_test\20200812\collector\lib\plugins\get_sysinfo.py", line 32, in linux
+    response.data =  self._parse_data(tgt, result)
+  File "E:\python_test\20200812\collector\lib\plugins\get_sysinfo.py", line 45, in _parse_data
+    for key, value in data[tgt]["sysinfo"].items():
+AttributeError: 'str' object has no attribute 'items'
+

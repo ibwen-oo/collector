@@ -30,13 +30,14 @@ class SaltHandler(BaseHandler):
 
     def task(self, tgt):
         server_info = get_server_info(tgt=tgt, handler=self)
-        print(server_info)
-    #     response =  requests.post(
-    #         url=self.cmdbapi,
-    #         json=server_info
-    #     )
-    #
-    #     return response
+        # print(server_info)
+        # 数据提交到cmdbapi,入库
+        response =  requests.post(
+            url=self.cmdbapi,
+            json=server_info
+        )
+
+        return response
 
 
 
