@@ -41,11 +41,13 @@ class SYSInfo(BasePlugin):
         sys_info = {}
         sys_info["name"] = tgt
         virtual = data[tgt]["virtual"]
+        # print(tgt, data)
         for key, value in data[tgt]["sysinfo"].items():
             if key == "interface":
                 value.pop("lo")
                 sys_info["network"] = self._parse_network(value)
             elif key == "os_info":
+                sys_info["uuid"] = value["uuid"]
                 sys_info["hostname"] = value["nodename"]
                 sys_info["cpu"] = value["num_cpus"]
                 sys_info["cpu_model"] = value["cpu_model"]

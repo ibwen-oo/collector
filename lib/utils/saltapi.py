@@ -71,7 +71,7 @@ class SaltAPI():
                 'fun': 'grains.item',
                 'tgt': '*',
                 'arg': ('os', 'id', 'host' ),
-                'kwargs': {},
+                'kwarg': {},
                 'expr_form': 'glob',
                 'timeout': 60
             }

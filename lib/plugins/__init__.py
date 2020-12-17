@@ -17,7 +17,6 @@ def get_server_info(tgt=None, handler=None):
         obj = cls()
         value = obj.process(tgt, handler=handler)
         server_info[name] = value
-
     return server_info
 
 """

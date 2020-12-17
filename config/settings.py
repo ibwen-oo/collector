@@ -54,7 +54,8 @@ PLUGINS_DICT = {
 DEBUG = False
 
 # 采集的数据发送到API模块
-CMDBAPI = "http://127.0.0.1:8000/api/v1/server/"
+# CMDBAPI = "http://127.0.0.1:8000/api/v1/server/"
+CMDBAPI = "http://127.0.0.1:8080/api/v1/server/"
 
-LOG_NAME = "cmdb.log"
+LOG_NAME = "collector.log"
 LOG_FILE_PATH = os.path.join(BASE_DIR, "logs")
