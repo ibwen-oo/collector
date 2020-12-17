@@ -9,15 +9,15 @@ SSH_USER = "root"
 
 # 虚拟机集群管理中心
 vCenter = {
-    "host": "10.0.6.241",
-    "user": "root",
-    "password": "huoban@901"
+    "host": "hostIP",
+    "user": "user",
+    "password": "password"
 }
 
 # salt api 配置
-SALTURL = "http://10.0.6.110:8000"
-SALTUSERNAME = "saltapi"
-SALTPASSWORD = "123456"
+SALTURL = "http://ip:port"
+SALTUSERNAME = "user"
+SALTPASSWORD = "password"
 
 # 定义采集数据的方法,可以是salt或ssh(暂未实现)
 ENGINE = "salt"
